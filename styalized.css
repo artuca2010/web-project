@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(0, 0, 36);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo1 {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 30px;
+}
+
+.logo2 {
+    color: rgb(255, 255, 50);
+    font-size: 23px;
+}
+
+.LandingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subtitle1 {
+    color: rgb(0, 216, 216);
+    font-size: 14px;
+    font-weight: bold;
+
+    border-bottom: 2px solid rgb(0, 216, 216);
+    padding-bottom: 4px;
+}
+
+.Title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Subtitle2 {
+    color: rgb(176, 176, 176);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.LandingDoors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.BoxSB {
+    display: flex;
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Box1 {
+    width: 25vw;
+    height: 9vw;
+    margin-left: 48px;
+    background-color: rgb(41, 41, 96);
+    border-radius: 10px;
+    border-top: 4.5px solid rgb(0, 216, 216);
+    padding-top: 4px;
+}
+.Box2 {
+    width: 25vw;
+    height: 9vw;
+    margin-left: 48px;
+    background-color: rgb(41, 41, 96);
+    border-radius: 10px;
+    border-top: 4.5px solid rgb(255, 69, 69);
+    padding-top: 4px;
+}
+
+.Box3 {
+    width: 25vw;
+    height: 9vw;
+    margin-left: 48px;
+    background-color: rgb(41, 41, 96);
+    border-radius: 10px;
+    border-top: 4.5px solid rgb(241, 255, 88);
+    padding-top: 4px;
+}
